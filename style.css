@@ -5,7 +5,8 @@
   font-style: normal;
 }
 
-/* Link - Making the blue fit the page better */
+/* Link - Making the blue fit the page better
+I also didn't want it to be underlined, it didn't look as nice */
 a {
   color: #5f5fe0;
   text-decoration: none;
@@ -52,7 +53,7 @@ h4 {
   color: #006221;
 }
 
-/* Layout */
+/* Overall layout */
 body {
   background-color: #e6e6e6;
   font-family: Helvetica, sans-serif;
