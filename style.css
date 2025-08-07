@@ -5,44 +5,49 @@
 }
 
 body {
-  /* font-family: "Nabla", sans-serif; */
-  /* text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  background-color: red;
+  background-color: rgb(194, 158, 158);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-  padding: 0 15%;
-  text-align: left;
-  background-color: rgb(205, 205, 230);
-  border: solid;
+  padding: 20px 20px;
+  text-align: center;
 }
 
 h1 {
   font-family: "DotGothic16";
-  /* font-style: italic; */
+  text-align: center;
+  color: pink;
 }
 
 h2 {
   font-size: 0.8rem;
+  text-align: right;
+  padding-right: 10%;
 }
 
-/* .infoDes{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10%;
-    columns: 2;
-} */
-
-.informationDesign {
+.twoColumns {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
+  text-align: left;
 }
 
-.columnID {
+.column {
   flex: 1;
   max-width: 50%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-style: outset;
+  border-color: rgb(96, 96, 255);
+  box-shadow: 10px 5px 5px rgb(255, 171, 171);
+}
+
+h4 {
+  font-family: "DotGothic16";
+}
+
+.conclusion {
+  text-align: left;
 }
